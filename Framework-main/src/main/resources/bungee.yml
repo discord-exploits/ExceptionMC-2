@@ -1,0 +1,4 @@
+main: net.exceptionmc.framework.FrameworkBungee
+name: Framework
+version: 1.0.0
+author: ExceptionMC

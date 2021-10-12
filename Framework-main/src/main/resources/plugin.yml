@@ -1,0 +1,10 @@
+main: net.exceptionmc.framework.FrameworkSpigot
+name: Framework
+author: ExceptionMC
+version: 1.0.0
+
+depend: [ NoteBlockAPI ]
+
+commands:
+  shutdown:
+    description: shutdown

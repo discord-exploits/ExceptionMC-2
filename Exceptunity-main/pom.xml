@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>net.exceptionmc</groupId>
+    <artifactId>Exceptunity</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>cloudnet-snapshots</id>
+            <url>https://repo.cloudnetservice.eu/repository/snapshots/</url>
+        </repository>
+
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.exceptionmc</groupId>
+            <artifactId>Framework</artifactId>
+            <version>0.0.0-00</version>
+            <scope>system</scope>
+            <systemPath>D:/ExceptionMC/Framework/target/Framework-1.0-SNAPSHOT.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>org.spigotmc</groupId>
+            <artifactId>spigot-api</artifactId>
+            <version>1.8.8-R0.1-SNAPSHOT</version>
+            <scope>system</scope>
+            <systemPath>D:/ExceptionMC/lib/spigot-1.8.8-R0.1-SNAPSHOT-latest.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sk89q</groupId>
+            <artifactId>WorldEdit</artifactId>
+            <version>6.1</version>
+            <scope>system</scope>
+            <systemPath>D:/ExceptionMC/lib/worldedit-bukkit-6.1.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.sk89q</groupId>
+            <artifactId>WorldGuard</artifactId>
+            <version>6.1</version>
+            <scope>system</scope>
+            <systemPath>D:/ExceptionMC/lib/worldguard-6.1.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>com.mewin</groupId>
+            <artifactId>WGRegionEvents</artifactId>
+            <version>1.2.1</version>
+            <scope>system</scope>
+            <systemPath>D:/ExceptionMC/lib/WGRegionEvents-1.2.1.jar</systemPath>
+        </dependency>
+
+        <dependency>
+            <groupId>de.dytanic.cloudnet</groupId>
+            <artifactId>cloudnet-driver</artifactId>
+            <version>3.4.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>de.dytanic.cloudnet</groupId>
+            <artifactId>cloudnet-bridge</artifactId>
+            <version>3.4.0-SNAPSHOT</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>com.github.koca2000</groupId>
+            <artifactId>NoteBlockAPI</artifactId>
+            <version>1.6.1</version>
+        </dependency>
+    </dependencies>
+</project>
